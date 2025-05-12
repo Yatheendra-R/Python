@@ -1,0 +1,10 @@
+#wap to obtain the temp of 7 days amd then display the avg temp of the week(in celsius)
+m=float(input("Enter the temp of monday(in celsius):"))
+t=float(input("Enter the temp of tuesday(in celsius):"))
+w=float(input("Enter the temp of wednesday(in celsius):"))
+th=float(input("Enter the temp of thursday(in celsius):"))
+f=float(input("Enter the temp of friday(in celsius):"))
+s=float(input("Enter the temp of saturday(in celsius):"))
+su=float(input("Enter the temp of sunday(in celsius):"))
+avg=(m+t+w+th+f+s+su)//7
+print("average temperature of the week(in celsius) is",avg)
